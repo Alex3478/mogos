@@ -1,0 +1,365 @@
+html,
+body {
+    font-family: "Titillium Web", sans-serif;
+    height: 100%;
+    width: 100%;
+    background: #b8b7b7;
+    font-size: 14px;
+}
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+}
+[class*="__container"] {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+/* -------------HEADER--------------- */
+.header {
+    padding: 50px 0;
+    background: #eb9a85;
+}
+.header__container {
+    display: flex;
+    justify-content: space-between;
+}
+._container {
+}
+.header__image {
+}
+.header__menu {
+}
+.menu {
+}
+.menu__nav {
+}
+.menu__list {
+    display: flex;
+}
+.menu__list > *:not(:last-child) {
+    margin-right: 5px;
+}
+.menu__item {
+    padding: 8px 17px;
+    border-radius: 10000000px;
+}
+.menu__item:hover {
+    background: #fce38a;
+}
+.menu__link {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+/* ----------MAIN------------ */
+.main {
+    background: #eb9a85;
+}
+.main__creative {
+}
+/* -----------CREATIVE------------ */
+.creative {
+    background: #eb9a85;
+}
+.creative__title-logo {
+    text-align: center;
+    font-weight: 600;
+    font-size: 72px;
+    color: #fff;
+}
+.creative__title {
+    text-align: center;
+    font-weight: 600;
+    font-size: 150px;
+    color: #fff;
+}
+.creative__button {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.creative__btn {
+    min-height: 50px;
+    color: #fff;
+    min-width: 180px;
+    background: #e26d0c;
+    border-radius: 1px;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px
+}
+/* -----------STORY--------------- */
+.story {
+    padding: 40px;
+    background: #fff;
+}
+.story__container {
+}
+.story__title-logo {
+    font-weight: 500;
+    font-size: 24px;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.story__title {
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.story__title-text {
+    font-weight: 400;
+    font-size: 15px;
+    color: #b6b6b6;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.story__body {
+    display: flex;
+    justify-content: space-between;
+}
+/* ----------AWARD------------ */
+.award {
+    padding: 60px;
+    background: #95e1d3;
+}
+.award__container {
+    display: flex;
+    justify-content: space-between;
+}
+.award__body {
+    display: flex;
+    justify-content: space-between;
+}
+.award__title {
+    color: #fff;
+    font-weight: 600;
+    font-size: 80px;
+}
+.award__title-text {
+}
+/* -------------AMAZING--------------- */
+.amazing {
+    padding: 40px;
+    background: #fff;
+}
+.amazing__container {
+}
+.amazing__title-logo {
+    text-align: center;
+    font-weight: 500;
+    font-size: 24px;
+}
+.amazing__title {
+    font-weight: 500;
+    font-size: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.amazing__title-text {
+    text-align: center;
+    color: #b6b6b6;
+}
+/* -----------FOR------------ */
+.for {
+    padding: 30px;
+    background: #efefef;
+}
+.for__container {
+}
+.for__title-logo {
+    text-align: center;
+    font-weight: 500;
+    font-size: 24px;
+}
+.for__title {
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.for__image {
+    text-align: center;
+}
+/* ------------SERVICE------------ */
+.service {
+    padding: 60px;
+    background: #fff;
+}
+.service__container {
+}
+.service__title-logo {
+    text-align: center;
+    font-weight: 500;
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+.service__title {
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    text-transform: uppercase;
+}
+.service__title-text {
+    text-align: center;
+    font-weight: 400;
+    font-size: 15px;
+    color: #b6b6b6;
+    margin-bottom: 30px;
+}
+.service__body {
+    display: flex;
+    justify-content: space-between;
+}
+.service__image {
+    padding-right: 30px;
+}
+.service__title-texts {
+    font-weight: 400;
+    font-size: 15px;
+    color: #b6b6b6;
+}
+/* -----------COMENT------------- */
+.coment {
+    padding: 50px;
+    background: #f8f8f8;
+}
+.coment__container {
+}
+.coment__title-text {
+    display: flex;
+    justify-content: center;
+    color: #b6b6b6;
+}
+.coment__title {
+    display: flex;
+    justify-content: center;
+}
+/* ------------MEET------------ */
+.meet {
+    padding: 40px;
+    background: #fff;
+}
+.meet__container {
+}
+.meet__title-logo {
+    text-align: center;
+    font-weight: 400;
+    font-size: 30px;
+}
+.meet__title {
+    text-align: center;
+    font-weight: 500;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.meet__title-text {
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    color: #b6b6b6;
+    margin-bottom: 20px;
+}
+.meet__body {
+    display: flex;
+    justify-content: space-between;
+}
+.meet__image {
+    padding: 20px ;
+}
+/* -------------HIPSTER------------- */
+.hipster {
+    padding: 50px;
+    background: #f8f8f8;
+}
+.hipster__container {
+}
+.hipster__image {
+}
+/* ------------SOME-------------- */
+.some {
+    padding: 40px;
+    background: #f6f6f6;
+}
+.some__container {
+}
+.some__title-logo {
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+}
+.some__title {
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+}
+.some__title-text {
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    color: #b6b6b6;
+    margin-bottom: 20px;
+}
+.some__body {
+    display: flex;
+    justify-content: space-between;
+}
+.some__image {
+}
+.some__title-textr {
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    color: #b6b6b6;
+    margin-bottom: 20px;
+}
+.some__coment {
+}
+/* -------------LATEST------------------ */
+.latest {
+    padding: 100px 0;
+    background: #fff;
+}
+.latest__conatiner {
+}
+.latest__title-logo {
+    text-align: center;
+    font-weight: 500;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.latest__title {
+    text-align: center;
+    font-weight: 700;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+.latest__body {
+    display: flex;
+    justify-content: center;
+}
+.latest__image {
+    padding-right: 30px;
+}
+/* ---------------OPEN------------------ */
+.open {
+    padding: 20px;
+    background: #eeeeee;
+}
+.open__conatiner {
+}
+.open__image {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.open__title {
+    text-align: center;
+    font-weight: 500;
+    font-size: 24px;
+    color: #f38181;
+}
